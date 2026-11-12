@@ -1,0 +1,458 @@
+[
+  {
+    "ticker": "BOCE",
+    "name": "BlueOcean Renewable Fund",
+    "sdgs": [
+      7,
+      13
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "ACAN",
+    "name": "Amazon Canopy Promise",
+    "sdgs": [
+      13,
+      15
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "TWST",
+    "name": "Thames Water Stewardship",
+    "sdgs": [
+      6,
+      14
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "NWGD",
+    "name": "Nordic Wind & Grid",
+    "sdgs": [
+      7,
+      13
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "SOLS",
+    "name": "Solar Sahel Access",
+    "sdgs": [
+      7,
+      10
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "CORL",
+    "name": "Coral Reef Recovery Note",
+    "sdgs": [
+      14
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "FAIR",
+    "name": "Fair Wage Supply Chain",
+    "sdgs": [
+      8,
+      10
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "GEBN",
+    "name": "Gender Equality Bond",
+    "sdgs": [
+      5,
+      10
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "H2CO",
+    "name": "Green Hydrogen Corridor",
+    "sdgs": [
+      7,
+      13
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "UTEB",
+    "name": "Urban Transit Electrification",
+    "sdgs": [
+      11,
+      13
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "PEAT",
+    "name": "Peatland Carbon Store",
+    "sdgs": [
+      13,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "MANG",
+    "name": "Mangrove Shield Asia",
+    "sdgs": [
+      13,
+      14,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "CIRC",
+    "name": "Circular Plastics Europe",
+    "sdgs": [
+      12,
+      13
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "AGRO",
+    "name": "Smallholder Agroforestry",
+    "sdgs": [
+      2,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "CSUK",
+    "name": "Community Solar UK",
+    "sdgs": [
+      7,
+      11
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "OPLH",
+    "name": "Ocean Plastic Heroes",
+    "sdgs": [
+      14
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "EVGZ",
+    "name": "EverGreen Zero",
+    "sdgs": [
+      13
+    ],
+    "label": "false"
+  },
+  {
+    "ticker": "CCLN",
+    "name": "CleanCoal Transition",
+    "sdgs": [
+      7
+    ],
+    "label": "false"
+  },
+  {
+    "ticker": "HHYD",
+    "name": "Highland Hydro Co-op",
+    "sdgs": [
+      6,
+      7
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "DRIP",
+    "name": "Sahel Drip Irrigation",
+    "sdgs": [
+      2,
+      6
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "BALT",
+    "name": "Baltic Sea Nutrients",
+    "sdgs": [
+      14
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "CITY",
+    "name": "City Canopy Bonds",
+    "sdgs": [
+      11,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "CLOD",
+    "name": "Ethical Cloud & Grid",
+    "sdgs": [
+      7,
+      9
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "PPAB",
+    "name": "PurePlanet Absolute",
+    "sdgs": [
+      13,
+      15
+    ],
+    "label": "false"
+  },
+  {
+    "ticker": "HOUS",
+    "name": "Inclusive Housing Green",
+    "sdgs": [
+      10,
+      11
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "KELP",
+    "name": "Kelp Coast Recovery",
+    "sdgs": [
+      13,
+      14
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "SFLX",
+    "name": "Sustainable Future Leaders",
+    "sdgs": [
+      13
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "ANDW",
+    "name": "Andean Watershed Fund",
+    "sdgs": [
+      6,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "BATC",
+    "name": "Battery Circularity",
+    "sdgs": [
+      7,
+      12
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "WICT",
+    "name": "Women in Climate Tech",
+    "sdgs": [
+      5,
+      9
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "GRAIN",
+    "name": "Regenerative Grain Co-op",
+    "sdgs": [
+      2,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "ARCT",
+    "name": "Arctic Claims Fund",
+    "sdgs": [
+      15
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "RAIL",
+    "name": "Rail Not Road",
+    "sdgs": [
+      9,
+      11
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "SCHL",
+    "name": "School Solar Africa",
+    "sdgs": [
+      4,
+      7
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "DSRT",
+    "name": "Desert Bloom Afforestation",
+    "sdgs": [
+      15
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "HEAT",
+    "name": "Heat Pump Neighbourhoods",
+    "sdgs": [
+      7,
+      11
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "FISH",
+    "name": "Fisheries Recovery Note",
+    "sdgs": [
+      14
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "ZHRM",
+    "name": "Zero Harm Mining",
+    "sdgs": [
+      12
+    ],
+    "label": "false"
+  },
+  {
+    "ticker": "WETL",
+    "name": "Coastal Defence Wetlands",
+    "sdgs": [
+      13,
+      14
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "MIGR",
+    "name": "Microgrid Islands",
+    "sdgs": [
+      7,
+      11
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "FASH",
+    "name": "Fair Fashion Bond",
+    "sdgs": [
+      8,
+      12
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "BIOG",
+    "name": "Biogas from Waste",
+    "sdgs": [
+      7,
+      12
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "LAND",
+    "name": "Indigenous Land Stewardship",
+    "sdgs": [
+      10,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "BCM2",
+    "name": "Blue Carbon Mangrove II",
+    "sdgs": [
+      13,
+      14
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "VVET",
+    "name": "Vague Virtue ETF",
+    "sdgs": [
+      13
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "NUCL",
+    "name": "Nuclear Transition Note",
+    "sdgs": [
+      7,
+      13
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "PLOF",
+    "name": "Plastic Offset Fantasy",
+    "sdgs": [
+      14
+    ],
+    "label": "false"
+  },
+  {
+    "ticker": "SKIL",
+    "name": "Apprentice Green Skills",
+    "sdgs": [
+      4,
+      8
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "HPEA",
+    "name": "Highland Peat Neighbours",
+    "sdgs": [
+      13,
+      15
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "MEGA",
+    "name": "Mega Green Promise",
+    "sdgs": [
+      13
+    ],
+    "label": "misleading"
+  },
+  {
+    "ticker": "DHEA",
+    "name": "District Heat Nordic",
+    "sdgs": [
+      7,
+      11
+    ],
+    "label": "verified"
+  },
+  {
+    "ticker": "RIVR",
+    "name": "Riverkeeper Bonds",
+    "sdgs": [
+      6,
+      14
+    ],
+    "label": "verified"
+  }
+]

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" font-family="Segoe UI, sans-serif">
+  <rect width="1100" height="220" fill="#efe7d8"/>
+  <text x="40" y="42" font-family="Georgia, serif" font-size="26" fill="#14241c">User journey</text>
+  <g fill="#14241c" font-size="15">
+    <rect x="40" y="70" width="180" height="100" rx="16" fill="#fffaf2" stroke="#14241c"/>
+    <text x="58" y="115">1. Landing</text>
+    <text x="58" y="140" font-size="12" fill="#3d4f46">Why proof matters</text>
+    <rect x="250" y="70" width="180" height="100" rx="16" fill="#e2f26b"/>
+    <text x="268" y="115">2. Quiz</text>
+    <text x="268" y="140" font-size="12">Eight answers</text>
+    <rect x="460" y="70" width="180" height="100" rx="16" fill="#fffaf2" stroke="#14241c"/>
+    <text x="478" y="115">3. Portfolio</text>
+    <text x="478" y="140" font-size="12" fill="#3d4f46">Matched funds</text>
+    <rect x="670" y="70" width="180" height="100" rx="16" fill="#fffaf2" stroke="#14241c"/>
+    <text x="688" y="115">4. Impact</text>
+    <text x="688" y="140" font-size="12" fill="#3d4f46">What £1,000 does</text>
+    <rect x="880" y="70" width="180" height="100" rx="16" fill="#14241c"/>
+    <text x="898" y="115" fill="#f6f1e6">5. Verify</text>
+    <text x="898" y="140" font-size="12" fill="#e2f26b">Audit trail</text>
+  </g>
+</svg>

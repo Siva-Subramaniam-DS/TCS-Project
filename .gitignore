@@ -1,0 +1,11 @@
+node_modules
+.next
+venv
+.venv
+__pycache__
+*.pyc
+.env
+*.db
+backend/ml/greenwash_model/*.joblib
+backend/ml/impact_model/*.joblib
+.DS_Store

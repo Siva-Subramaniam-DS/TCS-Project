@@ -1,0 +1,483 @@
+{
+  "currency": "GBP",
+  "unit_invested": 1000,
+  "note": "Metrics are illustrative competition data, modelled per \u00a31,000 invested for one year.",
+  "example_fund": "BlueOcean Renewable Fund",
+  "example": {
+    "co2_kg": 42,
+    "kwh": 180,
+    "water_l": 1200,
+    "forest_m2": 0.3,
+    "impact_score": 74
+  },
+  "funds": [
+    {
+      "ticker": "BOCE",
+      "name": "BlueOcean Renewable Fund",
+      "co2_kg_per_1k": 42,
+      "kwh_per_1k": 180,
+      "water_l_per_1k": 1200,
+      "forest_m2_per_1k": 0.3,
+      "impact_score": 74
+    },
+    {
+      "ticker": "ACAN",
+      "name": "Amazon Canopy Promise",
+      "co2_kg_per_1k": 22,
+      "kwh_per_1k": 10,
+      "water_l_per_1k": 80,
+      "forest_m2_per_1k": 1.4,
+      "impact_score": 33
+    },
+    {
+      "ticker": "TWST",
+      "name": "Thames Water Stewardship",
+      "co2_kg_per_1k": 6,
+      "kwh_per_1k": 20,
+      "water_l_per_1k": 4200,
+      "forest_m2_per_1k": 0.05,
+      "impact_score": 31
+    },
+    {
+      "ticker": "NWGD",
+      "name": "Nordic Wind & Grid",
+      "co2_kg_per_1k": 44,
+      "kwh_per_1k": 260,
+      "water_l_per_1k": 120,
+      "forest_m2_per_1k": 0.02,
+      "impact_score": 76
+    },
+    {
+      "ticker": "SOLS",
+      "name": "Solar Sahel Access",
+      "co2_kg_per_1k": 30,
+      "kwh_per_1k": 190,
+      "water_l_per_1k": 40,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 53
+    },
+    {
+      "ticker": "CORL",
+      "name": "Coral Reef Recovery Note",
+      "co2_kg_per_1k": 4,
+      "kwh_per_1k": 5,
+      "water_l_per_1k": 800,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 13
+    },
+    {
+      "ticker": "FAIR",
+      "name": "Fair Wage Supply Chain",
+      "co2_kg_per_1k": 2,
+      "kwh_per_1k": 0,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 6
+    },
+    {
+      "ticker": "GEBN",
+      "name": "Gender Equality Bond",
+      "co2_kg_per_1k": 1,
+      "kwh_per_1k": 0,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 6
+    },
+    {
+      "ticker": "H2CO",
+      "name": "Green Hydrogen Corridor",
+      "co2_kg_per_1k": 28,
+      "kwh_per_1k": 140,
+      "water_l_per_1k": 60,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 45
+    },
+    {
+      "ticker": "UTEB",
+      "name": "Urban Transit Electrification",
+      "co2_kg_per_1k": 36,
+      "kwh_per_1k": 95,
+      "water_l_per_1k": 20,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 46
+    },
+    {
+      "ticker": "PEAT",
+      "name": "Peatland Carbon Store",
+      "co2_kg_per_1k": 55,
+      "kwh_per_1k": 5,
+      "water_l_per_1k": 300,
+      "forest_m2_per_1k": 0.8,
+      "impact_score": 59
+    },
+    {
+      "ticker": "MANG",
+      "name": "Mangrove Shield Asia",
+      "co2_kg_per_1k": 40,
+      "kwh_per_1k": 8,
+      "water_l_per_1k": 900,
+      "forest_m2_per_1k": 1.1,
+      "impact_score": 53
+    },
+    {
+      "ticker": "CIRC",
+      "name": "Circular Plastics Europe",
+      "co2_kg_per_1k": 12,
+      "kwh_per_1k": 15,
+      "water_l_per_1k": 200,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 17
+    },
+    {
+      "ticker": "AGRO",
+      "name": "Smallholder Agroforestry",
+      "co2_kg_per_1k": 18,
+      "kwh_per_1k": 6,
+      "water_l_per_1k": 240,
+      "forest_m2_per_1k": 0.9,
+      "impact_score": 28
+    },
+    {
+      "ticker": "CSUK",
+      "name": "Community Solar UK",
+      "co2_kg_per_1k": 20,
+      "kwh_per_1k": 150,
+      "water_l_per_1k": 10,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 42
+    },
+    {
+      "ticker": "OPLH",
+      "name": "Ocean Plastic Heroes",
+      "co2_kg_per_1k": 3,
+      "kwh_per_1k": 2,
+      "water_l_per_1k": 500,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 8
+    },
+    {
+      "ticker": "EVGZ",
+      "name": "EverGreen Zero",
+      "co2_kg_per_1k": 0,
+      "kwh_per_1k": 0,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 1
+    },
+    {
+      "ticker": "CCLN",
+      "name": "CleanCoal Transition",
+      "co2_kg_per_1k": 0,
+      "kwh_per_1k": 5,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 2
+    },
+    {
+      "ticker": "HHYD",
+      "name": "Highland Hydro Co-op",
+      "co2_kg_per_1k": 16,
+      "kwh_per_1k": 120,
+      "water_l_per_1k": 800,
+      "forest_m2_per_1k": 0.1,
+      "impact_score": 41
+    },
+    {
+      "ticker": "DRIP",
+      "name": "Sahel Drip Irrigation",
+      "co2_kg_per_1k": 8,
+      "kwh_per_1k": 4,
+      "water_l_per_1k": 6100,
+      "forest_m2_per_1k": 0.2,
+      "impact_score": 30
+    },
+    {
+      "ticker": "BALT",
+      "name": "Baltic Sea Nutrients",
+      "co2_kg_per_1k": 5,
+      "kwh_per_1k": 3,
+      "water_l_per_1k": 2800,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 26
+    },
+    {
+      "ticker": "CITY",
+      "name": "City Canopy Bonds",
+      "co2_kg_per_1k": 14,
+      "kwh_per_1k": 2,
+      "water_l_per_1k": 40,
+      "forest_m2_per_1k": 0.6,
+      "impact_score": 22
+    },
+    {
+      "ticker": "CLOD",
+      "name": "Ethical Cloud & Grid",
+      "co2_kg_per_1k": 18,
+      "kwh_per_1k": 160,
+      "water_l_per_1k": 30,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 40
+    },
+    {
+      "ticker": "PPAB",
+      "name": "PurePlanet Absolute",
+      "co2_kg_per_1k": 0,
+      "kwh_per_1k": 0,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 1
+    },
+    {
+      "ticker": "HOUS",
+      "name": "Inclusive Housing Green",
+      "co2_kg_per_1k": 9,
+      "kwh_per_1k": 22,
+      "water_l_per_1k": 30,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 14
+    },
+    {
+      "ticker": "KELP",
+      "name": "Kelp Coast Recovery",
+      "co2_kg_per_1k": 11,
+      "kwh_per_1k": 2,
+      "water_l_per_1k": 300,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 14
+    },
+    {
+      "ticker": "SFLX",
+      "name": "Sustainable Future Leaders",
+      "co2_kg_per_1k": 8,
+      "kwh_per_1k": 20,
+      "water_l_per_1k": 100,
+      "forest_m2_per_1k": 0.1,
+      "impact_score": 13
+    },
+    {
+      "ticker": "ANDW",
+      "name": "Andean Watershed Fund",
+      "co2_kg_per_1k": 7,
+      "kwh_per_1k": 6,
+      "water_l_per_1k": 3500,
+      "forest_m2_per_1k": 0.4,
+      "impact_score": 31
+    },
+    {
+      "ticker": "BATC",
+      "name": "Battery Circularity",
+      "co2_kg_per_1k": 10,
+      "kwh_per_1k": 40,
+      "water_l_per_1k": 50,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 18
+    },
+    {
+      "ticker": "WICT",
+      "name": "Women in Climate Tech",
+      "co2_kg_per_1k": 6,
+      "kwh_per_1k": 30,
+      "water_l_per_1k": 10,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 12
+    },
+    {
+      "ticker": "GRAIN",
+      "name": "Regenerative Grain Co-op",
+      "co2_kg_per_1k": 15,
+      "kwh_per_1k": 4,
+      "water_l_per_1k": 180,
+      "forest_m2_per_1k": 0.3,
+      "impact_score": 20
+    },
+    {
+      "ticker": "ARCT",
+      "name": "Arctic Claims Fund",
+      "co2_kg_per_1k": 1,
+      "kwh_per_1k": 1,
+      "water_l_per_1k": 1,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 2
+    },
+    {
+      "ticker": "RAIL",
+      "name": "Rail Not Road",
+      "co2_kg_per_1k": 24,
+      "kwh_per_1k": 40,
+      "water_l_per_1k": 10,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 30
+    },
+    {
+      "ticker": "SCHL",
+      "name": "School Solar Africa",
+      "co2_kg_per_1k": 9,
+      "kwh_per_1k": 70,
+      "water_l_per_1k": 5,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 21
+    },
+    {
+      "ticker": "DSRT",
+      "name": "Desert Bloom Afforestation",
+      "co2_kg_per_1k": 5,
+      "kwh_per_1k": 1,
+      "water_l_per_1k": 20,
+      "forest_m2_per_1k": 2.0,
+      "impact_score": 18
+    },
+    {
+      "ticker": "HEAT",
+      "name": "Heat Pump Neighbourhoods",
+      "co2_kg_per_1k": 27,
+      "kwh_per_1k": 80,
+      "water_l_per_1k": 15,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 37
+    },
+    {
+      "ticker": "FISH",
+      "name": "Fisheries Recovery Note",
+      "co2_kg_per_1k": 3,
+      "kwh_per_1k": 1,
+      "water_l_per_1k": 200,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 7
+    },
+    {
+      "ticker": "ZHRM",
+      "name": "Zero Harm Mining",
+      "co2_kg_per_1k": 0,
+      "kwh_per_1k": 0,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 1
+    },
+    {
+      "ticker": "WETL",
+      "name": "Coastal Defence Wetlands",
+      "co2_kg_per_1k": 12,
+      "kwh_per_1k": 2,
+      "water_l_per_1k": 1600,
+      "forest_m2_per_1k": 0.5,
+      "impact_score": 31
+    },
+    {
+      "ticker": "MIGR",
+      "name": "Microgrid Islands",
+      "co2_kg_per_1k": 14,
+      "kwh_per_1k": 110,
+      "water_l_per_1k": 20,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 29
+    },
+    {
+      "ticker": "FASH",
+      "name": "Fair Fashion Bond",
+      "co2_kg_per_1k": 4,
+      "kwh_per_1k": 2,
+      "water_l_per_1k": 80,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 7
+    },
+    {
+      "ticker": "BIOG",
+      "name": "Biogas from Waste",
+      "co2_kg_per_1k": 17,
+      "kwh_per_1k": 130,
+      "water_l_per_1k": 40,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 36
+    },
+    {
+      "ticker": "LAND",
+      "name": "Indigenous Land Stewardship",
+      "co2_kg_per_1k": 26,
+      "kwh_per_1k": 3,
+      "water_l_per_1k": 60,
+      "forest_m2_per_1k": 1.6,
+      "impact_score": 38
+    },
+    {
+      "ticker": "BCM2",
+      "name": "Blue Carbon Mangrove II",
+      "co2_kg_per_1k": 21,
+      "kwh_per_1k": 2,
+      "water_l_per_1k": 400,
+      "forest_m2_per_1k": 0.7,
+      "impact_score": 29
+    },
+    {
+      "ticker": "VVET",
+      "name": "Vague Virtue ETF",
+      "co2_kg_per_1k": 3,
+      "kwh_per_1k": 8,
+      "water_l_per_1k": 20,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 6
+    },
+    {
+      "ticker": "NUCL",
+      "name": "Nuclear Transition Note",
+      "co2_kg_per_1k": 48,
+      "kwh_per_1k": 300,
+      "water_l_per_1k": 40,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 80
+    },
+    {
+      "ticker": "PLOF",
+      "name": "Plastic Offset Fantasy",
+      "co2_kg_per_1k": 0,
+      "kwh_per_1k": 0,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 1
+    },
+    {
+      "ticker": "SKIL",
+      "name": "Apprentice Green Skills",
+      "co2_kg_per_1k": 1,
+      "kwh_per_1k": 4,
+      "water_l_per_1k": 0,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 5
+    },
+    {
+      "ticker": "HPEA",
+      "name": "Highland Peat Neighbours",
+      "co2_kg_per_1k": 33,
+      "kwh_per_1k": 2,
+      "water_l_per_1k": 500,
+      "forest_m2_per_1k": 0.9,
+      "impact_score": 42
+    },
+    {
+      "ticker": "MEGA",
+      "name": "Mega Green Promise",
+      "co2_kg_per_1k": 2,
+      "kwh_per_1k": 5,
+      "water_l_per_1k": 10,
+      "forest_m2_per_1k": 0.05,
+      "impact_score": 4
+    },
+    {
+      "ticker": "DHEA",
+      "name": "District Heat Nordic",
+      "co2_kg_per_1k": 19,
+      "kwh_per_1k": 100,
+      "water_l_per_1k": 25,
+      "forest_m2_per_1k": 0.0,
+      "impact_score": 34
+    },
+    {
+      "ticker": "RIVR",
+      "name": "Riverkeeper Bonds",
+      "co2_kg_per_1k": 4,
+      "kwh_per_1k": 1,
+      "water_l_per_1k": 2400,
+      "forest_m2_per_1k": 0.1,
+      "impact_score": 27
+    }
+  ]
+}

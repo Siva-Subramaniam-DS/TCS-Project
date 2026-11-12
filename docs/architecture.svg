@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" font-family="Georgia, serif">
+  <rect width="1100" height="420" fill="#efe7d8"/>
+  <text x="40" y="48" font-size="28" fill="#14241c">ImpactPulse  how a pound becomes proof</text>
+  <g font-family="Segoe UI, sans-serif" font-size="14" fill="#14241c">
+    <rect x="40" y="90" width="180" height="90" rx="16" fill="#fffaf2" stroke="#14241c"/>
+    <text x="55" y="128">Quiz</text>
+    <text x="55" y="150" font-size="12" fill="#3d4f46">5-part values vector</text>
+    <rect x="280" y="90" width="200" height="90" rx="16" fill="#e2f26b"/>
+    <text x="296" y="128">Cosine match</text>
+    <text x="296" y="150" font-size="12">+ decision-tree risk</text>
+    <rect x="540" y="90" width="200" height="90" rx="16" fill="#fffaf2" stroke="#14241c"/>
+    <text x="556" y="128">Greenwash shield</text>
+    <text x="556" y="150" font-size="12" fill="#3d4f46">verified / misleading / false</text>
+    <rect x="800" y="90" width="250" height="90" rx="16" fill="#14241c"/>
+    <text x="816" y="128" fill="#f6f1e6">SHA-256 audit chain</text>
+    <text x="816" y="150" font-size="12" fill="#e2f26b">claim + previous hash</text>
+    <rect x="40" y="250" width="300" height="110" rx="16" fill="#1c7a4a"/>
+    <text x="58" y="292" fill="#f6f1e6">Next.js dashboard</text>
+    <text x="58" y="316" font-size="12" fill="#e7f6ea">CO‚ · kWh · litres · forest · score</text>
+    <rect x="380" y="250" width="300" height="110" rx="16" fill="#1d6a72"/>
+    <text x="398" y="292" fill="#f6f1e6">FastAPI</text>
+    <text x="398" y="316" font-size="12" fill="#e7f4f5">portfolio · impact · shield · advisor</text>
+    <rect x="720" y="250" width="330" height="110" rx="16" fill="#fffaf2" stroke="#14241c"/>
+    <text x="738" y="292">Random forest + glossary</text>
+    <text x="738" y="316" font-size="12" fill="#3d4f46">Impact score, or Gemini when a key is set</text>
+  </g>
+</svg>

@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% -10%, rgba(226, 242, 107, 0.55), transparent 32%),
+    radial-gradient(circle at 100% 0%, rgba(29, 106, 114, 0.12), transparent 28%),
+    #efe7d8;
+  color: #14241c;
+  font-family: Outfit, "Segoe UI", sans-serif;
+}
+
+main {
+  padding-bottom: 2.5rem;
+}
+
+h1, h2, h3, .serif {
+  font-family: Fraunces, Georgia, serif;
+  font-weight: 560;
+  letter-spacing: -0.03em;
+}
+
+.mono {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+.card {
+  background: #fffaf2;
+  border: 1px solid rgba(20, 36, 28, 0.08);
+  border-radius: 22px;
+  box-shadow: 0 18px 50px rgba(20, 36, 28, 0.06);
+}
+
+.kicker {
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 650;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border-radius: 999px;
+  padding: 0.8rem 1.2rem;
+  font-weight: 620;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-ink {
+  background: #14241c;
+  color: #f6f1e6;
+}
+
+.btn-lime {
+  background: #e2f26b;
+  color: #14241c;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.7rem;
+  font-size: 0.8125rem;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 1px solid rgba(20, 36, 28, 0.2);
+}
+
+.stamp {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #1c7a4a;
+  color: #1c7a4a;
+  border-radius: 8px;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  transform: rotate(-2deg);
+}

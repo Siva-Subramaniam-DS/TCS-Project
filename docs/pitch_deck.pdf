@@ -1,0 +1,58 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [3 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 676 >>
+stream
+BT
+/F1 20 Tf
+48 760 Td
+(ImpactPulse) Tj
+/F1 12 Tf
+0 -22 Td
+(Verified impact investing for Gen Z.) Tj
+0 -22 Td
+() Tj
+0 -22 Td
+(Problem: greenwashing, jargon, and invisible impact.) Tj
+0 -22 Td
+(1. Shield classifies a claim as verified, misleading, or false.) Tj
+0 -22 Td
+(2. Eight-question quiz becomes a values vector.) Tj
+0 -22 Td
+(3. Cosine similarity ranks funds. A decision tree sets risk.) Tj
+0 -22 Td
+(4. Random forest scores impact per 1,000 pounds.) Tj
+0 -22 Td
+(5. SHA-256 links each audit row to the previous hash.) Tj
+0 -22 Td
+() Tj
+0 -22 Td
+(Demo: alex@impactpulse.app / demo1234) Tj
+0 -22 Td
+(Frontend http://localhost:3000   API http://localhost:8000/docs) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000968 00000 n 
+trailer << /Size 6 /Root 1 0 R >>
+startxref
+1038
+%%EOF

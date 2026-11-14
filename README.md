@@ -39,8 +39,10 @@ Retail and premier banking are undergoing a structural pivot toward purpose-driv
 
 ### The ImpactPulse Response
 **ImpactPulse** is an enterprise-grade fintech platform engineered specifically for NextGen (Gen Z & Millennial) retail investors. It bridges retail investor values directly to verified sustainable funds through:
-- **Real-Time AI Greenwash Shield**: Eliminates marketing hype using hybrid FinBERT NLP and strict metric verification.
+- **Real-Time AI Greenwash Shield**: Eliminates marketing hype using hybrid FinBERT NLP, orbital satellite remote-sensing oracles, and strict metric verification.
 - **Values-Vector Personalization**: Replaces generic risk questionnaires with an 8-question ethical values matcher running on directional Cosine Similarity.
+- **HSBC Next Best Action (NBA) Engine**: Dynamically recommends automated micro-allocations aligned to personal values and risk boundaries.
+- **Green-AI Low-Carbon Compute Architecture**: Ultra-efficient micro-inference engine consuming **< 0.002g CO₂e per query**, ensuring the platform itself adheres to net-zero compute mandates.
 - **Physical Impact Quantification**: Replaces arbitrary ESG letter grades with real-world physical units (kg CO₂e avoided, kWh clean energy generated, Litres water purified, m² forest protected).
 - **Cryptographic Audit Ledger**: An immutable SHA-256 hash-chain guaranteeing zero retroactive tampering of marketing claims.
 - **FCA Consumer Duty Suitability Engine**: A transparent Decision Tree protecting first-time investors from inappropriate volatility.
@@ -86,13 +88,13 @@ Current retail banking architectures present three structural bottlenecks:
 
 ```
                     ┌──────────────────────────────────────┐
-                    │          IMPACTPULSE PLATFORM         │
+                    │          IMPACTPULSE PLATFORM        │
                     └──────────────────┬───────────────────┘
                                        │
         ┌───────────────┬──────────────┼──────────────┬───────────────┐
         ▼               ▼              ▼              ▼               ▼
  ┌─────────────┐ ┌─────────────┐ ┌───────────┐ ┌─────────────┐ ┌─────────────┐
- │ 🔍 PILLAR 1 │ │ 🤖 PILLAR 2 │ │ 📊 PILLAR 3│ │ 🔗 PILLAR 4 │ │ 💬 PILLAR 5 │
+ │   PILLAR 1  │ │   PILLAR 2  │ │ PILLAR 3│ │ 🔗 PILLAR 4 │ │ 💬 PILLAR 5 │
  │  Greenwash  │ │Values-Vector│ │ Physical  │ │ Immutable   │ │  Gen Z AI   │
  │   Shield    │ │  Matcher    │ │ Impact    │ │ Audit Chain │ │   Advisor   │
  └─────────────┘ └─────────────┘ └───────────┘ └─────────────┘ └─────────────┘

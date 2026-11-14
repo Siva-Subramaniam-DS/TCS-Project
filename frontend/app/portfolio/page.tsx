@@ -11,6 +11,18 @@ type Rec = {
   amount_gbp: number;
   recommendations: FundCard[];
   flagged: { name: string; ticker: string; reason: string }[];
+  next_best_action?: {
+    title: string;
+    recommendation: string;
+    target_ticker?: string;
+    target_fund?: string;
+    impact_metric?: string;
+  };
+  compute_carbon_footprint?: {
+    architecture: string;
+    estimated_co2_grams: number;
+    rating: string;
+  };
 };
 
 export default function PortfolioPage() {
@@ -100,6 +112,20 @@ export default function PortfolioPage() {
         <>
           <div className="mt-6 grid gap-6 lg:grid-cols-[1fr_280px]">
             <div className="space-y-4">
+              {data.next_best_action && (
+                <div className="card relative overflow-hidden border border-leaf/40 bg-lime/30 p-5">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
+                    <span className="rounded-full bg-leaf px-2.5 py-0.5 text-xs font-semibold text-white">HSBC Next Best Action</span>
+                    {data.compute_carbon_footprint && (
+                      <span className="mono text-[11px] text-[#5d6b63]">
+                        🌱 {data.compute_carbon_footprint.rating} ({data.compute_carbon_footprint.estimated_co2_grams}g CO₂e compute)
+                      </span>
+                    )}
+                  </div>
+                  <h3 className="mt-3 text-lg font-bold text-ink">{data.next_best_action.title}</h3>
+                  <p className="mt-1 text-sm text-[#24362c]">{data.next_best_action.recommendation}</p>
+                </div>
+              )}
               <label className="card flex flex-wrap items-center justify-between gap-3 p-4 text-sm">
                 <span>Amount to allocate</span>
                 <input

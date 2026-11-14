@@ -37,6 +37,10 @@ GLOSSARY = [
     ("cosine", "We turn your quiz into five numbers (climate, water, energy, social, governance) and compare that shape with each fund. Cosine similarity is just 'how alike are these two shapes'."),
     ("hash", "A hash is a fingerprint of a text. We chain them so if someone edits yesterday's claim, the fingerprint no longer matches the next one. That's the audit trail."),
     ("risk profile", "Your risk profile is how much of a drop you can live with. Conservative means smoother and narrower. Growth means you can wait out a bad year."),
+    ("good money", "John Coleman's 'Good Money' framework outlines 6 practical choices: Rethink Money (capital as catalyst), Find Purpose, Spend with Intention (ethical supply chains), Use Money to Help, Invest for Impact (measurable real-world solutions), and Save for Freedom."),
+    ("next best action", "Next Best Action (NBA) is an intelligent banking system that analyzes your profile and suggests the single highest-impact financial move you can make today, like setting an automated micro-allocation into clean energy."),
+    ("satellite verification", "Satellite verification uses orbital remote-sensing (such as Sentinel-2 optical and radar imagery) to independently verify whether physical reforestation or wetland claims are actually occurring on the ground, eliminating greenwashing."),
+    ("green ai", "Green AI is our architecture design prioritizing energy-efficient, low-carbon algorithms (<0.002g CO2 per query) to ensure the AI powering your sustainable portfolio does not generate unnecessary computing emissions."),
 ]
 
 

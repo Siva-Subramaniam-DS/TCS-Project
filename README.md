@@ -478,8 +478,7 @@ A 14-slide guide with copy-paste AI prompts (Gamma, Beautiful.ai, Claude/ChatGPT
 
 | Role | Name |
 |---|---|
-| Team leads | Siva Subramanim, Darashtr |
-| Members | Sneha, Anurag, Ajith |
+| Team Members | Siva Subramanim, Darashtr, Sneha, Anurag, Ajith |
 
 - Built with Next.js 14, Tailwind CSS, Recharts, Framer Motion, FastAPI, SQLAlchemy, scikit-learn, and Google Gemini (optional HuggingFace FinBERT).
 - Fund metrics are illustrative and calibrated against benchmarks of the kind published by DNV, SBTi, KPMG, and IUCN.

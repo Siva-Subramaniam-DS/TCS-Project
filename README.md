@@ -417,8 +417,7 @@ docker-compose up --build
 
 | Role | Name |
 |---|---|
-| Team leads | Siva Subramanim, Darashtr |
-| Members | Sneha, Anurag, Ajith |
+| Team Members | Siva Subramanim, Darashtr, Sneha, Anurag, Ajith |
 
 - Built with Next.js 14, FastAPI, HuggingFace, scikit-learn, and Google Gemini.
 - Calibrated on published benchmarks from DNV, SBTi, KPMG, and IUCN.

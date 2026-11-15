@@ -466,11 +466,6 @@ Tokens live in [`frontend/tailwind.config.js`](frontend/tailwind.config.js). Sha
 5. Integration with HSBC accounts for real recurring micro-allocations.
 
 ---
-
-## 🎤 Pitch Deck
-
-A 14-slide guide with copy-paste AI prompts (Gamma, Beautiful.ai, Claude/ChatGPT) is in [**`docs/PITCH_DECK_GUIDE_AND_PROMPTS.md`**](docs/PITCH_DECK_GUIDE_AND_PROMPTS.md). The rendered deck is [`docs/pitch_deck.pdf`](docs/pitch_deck.pdf).
-
 ---
 
 ## 👥 Team & Credits

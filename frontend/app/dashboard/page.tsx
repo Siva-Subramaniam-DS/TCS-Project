@@ -39,24 +39,33 @@ export default function DashboardPage() {
         {portfolio ? `${portfolio.name} · £${portfolio.amount_gbp.toLocaleString()} · ${portfolio.risk_profile || "Balanced"}` : "Loading the latest portfolio."}
       </p>
       {error && (
-        <p className="mt-4">
-          {error}. <Link className="underline" href="/onboarding">Take the quiz</Link> or start the API.
-        </p>
+        <div className="card mt-6 max-w-xl p-5">
+          <h2 className="text-2xl">No portfolio to show yet</h2>
+          <p className="mt-2 text-sm text-[#3d4f46]">{error}. Take the quiz to build one, or check the API is running on port 8000.</p>
+          <Link className="btn btn-ink mt-4" href="/onboarding">Take the quiz</Link>
+        </div>
+      )}
+      {!impact && !error && (
+        <div className="mt-6 grid grid-cols-2 gap-3 xl:grid-cols-4" aria-hidden="true">
+          {[0, 1, 2, 3].map((i) => (
+            <div key={i} className="card h-[210px] animate-pulse bg-[#f6efe2]" />
+          ))}
+        </div>
       )}
       {impact && (
         <>
-          <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-6 grid grid-cols-2 gap-3 xl:grid-cols-4">
             <ImpactGauge label="CO₂" value={impact.co2_kg} unit="kg / year" max={200} caption="Sequestered or avoided" />
             <ImpactGauge label="Energy" value={impact.kwh} unit="kWh / year" max={800} tone="#1d6a72" caption="Clean generation" />
             <ImpactGauge label="Water" value={impact.water_l} unit="litres / year" max={8000} tone="#1d6a72" caption="Purified or saved" />
             <ImpactGauge label="Forest" value={impact.forest_m2} unit="m² / year" max={4} tone="#c9841a" caption={`Score ${impact.score}/100`} />
           </div>
-          <div className="mt-6 grid gap-4 lg:grid-cols-[320px_1fr]">
+          <div className="mt-6 grid gap-4 md:grid-cols-[320px_1fr]">
             <PortfolioDonut slices={(portfolio?.holdings || []).map((fund) => ({ name: fund.ticker, value: fund.allocation }))} />
-            <div className="grid gap-4 sm:grid-cols-3">
-              <GoalMilestone emoji="🌱" title="First portfolio" detail="You locked a verified mix." progress={1} />
-              <GoalMilestone emoji="🌍" title="100 kg CO₂" detail={`${impact.co2_kg.toFixed(0)} kg modelled this year.`} progress={impact.co2_kg / 100} />
-              <GoalMilestone emoji="🔗" title="All holdings verified" detail="False claims never enter this book." progress={1} />
+            <div className="grid gap-3">
+              <GoalMilestone icon="sprout" title="First portfolio" detail="You locked a verified mix." progress={1} />
+              <GoalMilestone icon="globe" title="100 kg CO₂" detail={`${impact.co2_kg.toFixed(0)} kg modelled this year.`} progress={impact.co2_kg / 100} />
+              <GoalMilestone icon="link" title="All holdings verified" detail="False claims never enter this book." progress={1} />
             </div>
           </div>
           <div className="mt-6">

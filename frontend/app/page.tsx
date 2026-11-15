@@ -25,18 +25,22 @@ export default function HomePage() {
           <h1 className="mt-2 max-w-xl text-[2.35rem] leading-[1.02] sm:text-5xl lg:text-6xl">
             Invest with proof. Impact with purpose.
           </h1>
-          <div className="mt-4 flex flex-wrap gap-2">
-            <Link className="btn btn-sm btn-ink" href="/onboarding">
-              Take the 8-question quiz
-            </Link>
-            <Link className="btn btn-sm btn-ghost" href="/verify">
-              Test a claim
-            </Link>
-          </div>
-          <p className="mt-3 max-w-lg text-sm text-[#3d4f46] sm:text-base">
+          <p className="mt-4 max-w-lg text-base text-[#3d4f46] sm:text-lg">
             ImpactPulse is for Gen Z investors who want sustainable funds they can actually verify.
             Your values pick the portfolio. The shield throws out the slogans.
           </p>
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            <Link className="btn btn-ink" href="/onboarding">
+              Take the 8-question quiz
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+                <path d="M3 8h10M9 4l4 4-4 4" />
+              </svg>
+            </Link>
+            <Link className="btn btn-ghost" href="/verify">
+              Test a claim
+            </Link>
+          </div>
+          <p className="mt-3 text-sm text-[#55635b]">About two minutes. No account needed.</p>
         </div>
         <aside className="card relative overflow-hidden p-5">
           <span className="stamp">Hash-linked</span>
@@ -47,10 +51,10 @@ export default function HomePage() {
             <li className="flex justify-between"><span>Water purified</span><strong>1,200 L</strong></li>
             <li className="flex justify-between"><span>Forest restored</span><strong>0.3 m²</strong></li>
           </ul>
-          <p className="mono mt-4 text-[11px] leading-relaxed text-[#5d6b63]">
+          <p className="mono mt-4 border-t border-dashed border-[#e4d9c6] pt-3 text-[11px] leading-relaxed text-[#55635b]">
             Each claim is tied to the hash before it.
           </p>
-          <p className="mt-3 text-sm text-[#5d6b63]">
+          <p className="mt-3 text-sm text-[#55635b]">
             Modelled from the fund record for one year. If the claim has no metric, it does not land here.
           </p>
         </aside>
@@ -69,7 +73,7 @@ export default function HomePage() {
         <p className="kicker text-sea">How it works</p>
         <div className="mt-4 grid gap-4 md:grid-cols-4">
           {STEPS.map(([n, title, copy]) => (
-            <article key={n} className="rounded-3xl border border-[#14241c14] bg-lime/50 p-5">
+            <article key={n} className="rounded-3xl border border-[#14241c14] bg-lime/50 p-5 transition-colors hover:bg-lime/80">
               <p className="mono text-xs">{n}</p>
               <h3 className="mt-2 text-2xl">{title}</h3>
               <p className="mt-2 text-sm text-[#24362c]">{copy}</p>

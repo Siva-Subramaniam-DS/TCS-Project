@@ -53,13 +53,13 @@ export default function ImpactPage() {
       {data?.totals && (
         <>
           <p className="mt-3 max-w-2xl text-sm text-[#5d6b63]">{data.note}</p>
-          <div className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <div className="mt-6 grid grid-cols-2 gap-3 xl:grid-cols-4">
             <ImpactGauge label="CO₂ this year" value={data.totals.co2_kg} unit="kg" max={220} />
             <ImpactGauge label="Energy this year" value={data.totals.kwh} unit="kWh" max={900} tone="#1d6a72" />
             <ImpactGauge label="Water this year" value={data.totals.water_l} unit="litres" max={9000} tone="#1d6a72" />
             <ImpactGauge label="Forest this year" value={data.totals.forest_m2} unit="m²" max={5} tone="#c9841a" caption={`Model score ${data.totals.model_score}`} />
           </div>
-          <div className="card mt-6 grid gap-4 p-5 sm:grid-cols-4">
+          <div className="card mt-6 grid grid-cols-2 gap-5 p-5 sm:grid-cols-4">
             <div>
               <p className="kicker text-sea">Today so far</p>
               <p className="serif mt-2 text-3xl">{(data.totals.per_day.co2_kg * today).toFixed(3)}</p>
@@ -82,15 +82,27 @@ export default function ImpactPage() {
           </div>
           <div className="mt-6 space-y-3">
             {data.holdings.map((holding) => (
-              <article key={holding.ticker} className="card flex flex-wrap items-center justify-between gap-3 p-4">
+              <article key={holding.ticker} className="card grid items-center gap-3 p-4 sm:grid-cols-[1.2fr_auto_1.6fr]">
                 <div>
-                  <p className="text-xs text-sea">{holding.ticker} · {holding.allocation}%</p>
+                  <p className="mono text-xs text-sea">{holding.ticker} · {holding.allocation}%</p>
                   <h2 className="text-xl">{holding.name}</h2>
                 </div>
-                <GreenwashBadge status={holding.label} />
-                <p className="text-sm text-[#3d4f46]">
-                  {holding.impact.co2_kg} kg · {holding.impact.kwh} kWh · {holding.impact.water_l} L · score {holding.impact.score}
-                </p>
+                <div>
+                  <GreenwashBadge status={holding.label} />
+                </div>
+                <dl className="grid grid-cols-4 gap-2 text-sm sm:text-right">
+                  {[
+                    ["CO₂", `${holding.impact.co2_kg} kg`],
+                    ["Energy", `${holding.impact.kwh} kWh`],
+                    ["Water", `${holding.impact.water_l} L`],
+                    ["Score", holding.impact.score],
+                  ].map(([k, v]) => (
+                    <div key={k}>
+                      <dt className="text-[11px] text-[#55635b]">{k}</dt>
+                      <dd className="num font-medium">{v}</dd>
+                    </div>
+                  ))}
+                </dl>
               </article>
             ))}
           </div>

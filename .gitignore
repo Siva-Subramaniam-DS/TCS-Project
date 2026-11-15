@@ -9,3 +9,9 @@ __pycache__
 backend/ml/greenwash_model/*.joblib
 backend/ml/impact_model/*.joblib
 .DS_Store
+
+*.tsbuildinfo
+.claude/settings.local.json
+.playwright-cli/
+.claude/skills/
+.taste-skill/

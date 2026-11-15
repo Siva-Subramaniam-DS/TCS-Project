@@ -66,11 +66,18 @@ export function AIAdvisorChat() {
               <p className="font-semibold">Advisor</p>
               <p className="text-xs text-[#5d6b63]">{engine === "local-glossary" ? "Local explainer" : "Gemini"}</p>
             </div>
-            <button className="text-sm" onClick={() => setOpen(false)} type="button">
-              Close
+            <button
+              className="grid h-9 w-9 place-items-center rounded-full hover:bg-[#f3ecdf]"
+              onClick={() => setOpen(false)}
+              type="button"
+              aria-label="Close advisor"
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+                <path d="M3.5 3.5l9 9M12.5 3.5l-9 9" />
+              </svg>
             </button>
           </div>
-          <div className="flex-1 space-y-3 overflow-y-auto px-4 py-3 text-sm">
+          <div className="flex-1 space-y-3 overflow-y-auto px-4 py-3 text-sm" aria-live="polite">
             {messages.map((item, index) => (
               <p
                 key={index}
@@ -90,7 +97,8 @@ export function AIAdvisorChat() {
               value={text}
               onChange={(event) => setText(event.target.value)}
               placeholder="What is a green bond?"
-              className="w-full rounded-full border border-[#e4d9c6] bg-white px-3 py-2 text-sm outline-none"
+              aria-label="Ask the advisor"
+              className="w-full rounded-full border border-[#e4d9c6] bg-white px-3 py-2 text-sm"
             />
             <button className="btn btn-ink px-4 py-2 text-sm" type="submit">
               Send

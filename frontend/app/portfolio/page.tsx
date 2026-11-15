@@ -97,7 +97,7 @@ export default function PortfolioPage() {
   }
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-6 sm:px-5 sm:py-10">
+    <main className="mx-auto max-w-6xl px-4 pb-28 pt-6 sm:px-5 sm:pt-10 lg:pb-10">
       <p className="kicker text-sea">Portfolio builder</p>
       <div className="mt-2 flex flex-wrap items-end justify-between gap-4">
         <h1 className="text-3xl sm:text-5xl">{quiz ? `${quiz.name}, here is the match.` : "Building your mix"}</h1>
@@ -118,7 +118,7 @@ export default function PortfolioPage() {
                     <span className="rounded-full bg-leaf px-2.5 py-0.5 text-xs font-semibold text-white">HSBC Next Best Action</span>
                     {data.compute_carbon_footprint && (
                       <span className="mono text-[11px] text-[#5d6b63]">
-                        🌱 {data.compute_carbon_footprint.rating} ({data.compute_carbon_footprint.estimated_co2_grams}g CO₂e compute)
+                        {data.compute_carbon_footprint.rating} ({data.compute_carbon_footprint.estimated_co2_grams}g CO₂e compute)
                       </span>
                     )}
                   </div>
@@ -127,26 +127,33 @@ export default function PortfolioPage() {
                 </div>
               )}
               <label className="card flex flex-wrap items-center justify-between gap-3 p-4 text-sm">
-                <span>Amount to allocate</span>
-                <input
-                  type="number"
-                  min={100}
-                  step={50}
-                  value={amount}
-                  onChange={(event) => setAmount(Number(event.target.value))}
-                  className="w-32 rounded-xl border border-[#e4d9c6] px-3 py-2 text-right"
-                />
+                <span>
+                  <span className="block font-semibold">Amount to allocate</span>
+                  <span className="text-xs text-[#55635b]">Every slice below rescales as you type.</span>
+                </span>
+                <span className="flex items-center rounded-xl border border-[#e4d9c6] bg-white pl-3">
+                  <span className="text-[#55635b]">£</span>
+                  <input
+                    type="number"
+                    inputMode="numeric"
+                    min={100}
+                    step={50}
+                    value={amount}
+                    onChange={(event) => setAmount(Number(event.target.value))}
+                    className="num w-24 rounded-xl bg-transparent px-2 py-2 text-right text-base"
+                  />
+                </span>
               </label>
               {scaled.map((fund) => (
                 <article key={fund.fund_id} className="card p-5">
-                  <div className="flex flex-wrap items-start justify-between gap-3">
-                    <div>
+                  <div className="grid grid-cols-[1fr_auto] items-start gap-3">
+                    <div className="min-w-0">
                       <p className="text-xs uppercase tracking-wider text-sea">{fund.ticker} · {fund.category}</p>
-                      <h2 className="text-2xl">{fund.name}</h2>
+                      <h2 className="text-xl sm:text-2xl">{fund.name}</h2>
                     </div>
                     <div className="text-right">
-                      <p className="serif text-3xl">{Math.round((fund.match || 0) * 100)}%</p>
-                      <p className="text-xs text-[#5d6b63]">values match</p>
+                      <p className="serif text-2xl sm:text-3xl">{Math.round((fund.match || 0) * 100)}%</p>
+                      <p className="whitespace-nowrap text-xs text-[#55635b]">values match</p>
                     </div>
                   </div>
                   <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -166,7 +173,7 @@ export default function PortfolioPage() {
             </div>
             <div className="space-y-4">
               <PortfolioDonut slices={scaled.map((fund) => ({ name: fund.ticker, value: fund.allocation }))} />
-              <button className="btn btn-ink w-full" type="button" onClick={lockIn} disabled={saving}>
+              <button className="btn btn-ink hidden w-full lg:flex" type="button" onClick={lockIn} disabled={saving}>
                 {saving ? "Saving…" : "Lock this portfolio"}
               </button>
               {data.flagged.length > 0 && (
@@ -183,6 +190,18 @@ export default function PortfolioPage() {
                 </div>
               )}
             </div>
+          </div>
+          <div
+            className="fixed inset-x-0 bottom-0 z-20 flex items-center justify-between gap-3 border-t border-[#14241c14] bg-[#efe7d8]/95 px-4 pt-3 backdrop-blur lg:hidden"
+            style={{ paddingBottom: "calc(0.75rem + env(safe-area-inset-bottom, 0px))" }}
+          >
+            <div className="text-sm">
+              <p className="font-semibold">£{amount.toLocaleString()} · {scaled.length} funds</p>
+              <p className="text-xs text-[#55635b]">{data.risk_profile} risk</p>
+            </div>
+            <button className="btn btn-ink" type="button" onClick={lockIn} disabled={saving}>
+              {saving ? "Saving…" : "Lock this portfolio"}
+            </button>
           </div>
         </>
       )}
